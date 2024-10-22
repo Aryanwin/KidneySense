@@ -17,7 +17,7 @@ else:
   device = torch.device('cpu')
   print('Running on the CPU')
 
-data_dir = "/Users/aryanmansingh/Documents/Machine learning/Inspirit stuff/data"
+data_dir = "Data_directory"  #Use directory for data upload here
 subdirs = [x[0] for x in os.walk(data_dir)]
 subdirs = subdirs[1::]
 imgdict = {}
